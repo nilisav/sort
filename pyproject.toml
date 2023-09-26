@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sort-i"
+version = "0.1.0"
+description = ""
+authors = ["nilisav <vlad.vasilin.03@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.2"
+
+[tool.poetry.scripts]
+sort-i = "sort_i.__init__:testfunc"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
