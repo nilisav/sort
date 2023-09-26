@@ -10,3 +10,5 @@ poetry run sort-i
 
 Запуск тестов:
 poetry run pytest
+
+- P.S. обратитесь за помощью poetry run sort-i --help
